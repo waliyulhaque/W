@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins",sams-serif;
+}
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url(bg_.jpg);
+  background-size: cover;
+}
+
+
+
+.btn {
+  width: 100px;
+  height: 45px;
+  background: lime;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #000000;
+  cursor: pointer;
+  font-size: 20px;
+  color: black;
+  font-weight: 900;
+  
+} 
+.link{
+  text-decoration: none;
+  color: black;
+}

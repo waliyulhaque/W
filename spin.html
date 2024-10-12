@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Spin</title>
+  <style>
+  body{
+    justify-content: center;
+    align-items: center;
+  }
+  .spinner{
+    
+    background-color: oranged;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 25px solid white;
+    border-top: 20px solid black;
+    animation: ani 2.5s linear infinite;
+  }
+  @keyframes ani{
+    to{
+      transform: rotate(1080deg);
+    }
+  }
+  </style>
+</head>
+<body>  
+  <center><div class="spinner"></div></center>
+</body>
+</html>
